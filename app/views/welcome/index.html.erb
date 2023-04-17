@@ -1,6 +1,8 @@
-<p><%= link_to "Portugues", root_path(locale: 'pt-BR') %></p>
-<p><%= link_to "Ingles", root_path(locale: 'en') %></p>
-<%= render "menu" %>
-<p>Você está ambiente de <strong><%= ambiente_rails %></strong></p>
-<p>O nome parametro que esta na url é <strong><%= params[:nome] %></strong></p>
-<p>Curso de <%= @curso %> feito por <%= @nome %></p>
+
+<div class="jumbotron">
+  <h1 class="display-4">Seja bem vindo</h1>
+  <p class="lead">Este é o Crypto Wallet, uma app para você cadastrar e acompanhar suas cripto moedas!</p>
+  <hr class="my-4">
+  <p>Para começar selecione uma das opções abaixo:</p>
+    <%= render "menu" %>
+</div>
