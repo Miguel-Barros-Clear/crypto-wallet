@@ -1,5 +1,13 @@
 {
   "name": "crypto_wallet",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "3.3.1",
+    "notify-js-legacy": "0.4.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Miguel-Barros-Clear/crypto-wallet.git",
+  "author": "Miguel-Barros-Clear <miguel.barros.clear@gmail.com>",
+  "license": "MIT"
 }

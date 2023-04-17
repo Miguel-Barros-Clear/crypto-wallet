@@ -17,7 +17,7 @@
         mining_type_id: "Tipo de mineração"
         updated_at: "Atualizado em"
         created_at: "Criado em"
-      mining_type:
+      mining_types:
         id: "Codigo"
         description: "Descrição"
         acronym: "Sigla"
