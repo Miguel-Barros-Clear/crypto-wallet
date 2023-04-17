@@ -1,14 +1,20 @@
 <p id="notice"><%= notice %></p>
+ <form>
+    <div class="form-group">
+     <%= label_tag nil, MiningType.human_attribute_name(:description) %>
+     <%= text_field_tag nil, @mining_type.description, class:"form-control" %>
+    </div>
 
-<p>
-  <strong>Description:</strong>
-  <%= @mining_type.description %>
-</p>
+    <div class="form-group">
+      <%= label_tag nil, MiningType.human_attribute_name(:acronym) %>
+      <%= text_field_tag nil, @mining_type.acronym, class:"form-control" %>
+    </div>
 
-<p>
-  <strong>Acronym:</strong>
-  <%= @mining_type.acronym %>
-</p>
+     <div class="form-group">
+      <%= label_tag nil, MiningType.human_attribute_name(:mining_type_id) %>
+      <%= text_field_tag nil, @mining_type.description, class:"form-control" %>
+    </div>
+  </form>
 
-<%= link_to 'Edit', edit_mining_type_path(@mining_type) %> |
-<%= link_to 'Back', mining_types_path %>
+<%= link_to t('links.show'), edit_coin_path(@mining_type), class:"btn btn-primary" %> |
+<%= link_to t('links.back'), mining_types_path, class:"btn btn-primary" %>

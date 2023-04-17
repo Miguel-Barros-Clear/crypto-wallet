@@ -11,3 +11,13 @@ en:
     show: "Show"
     delete: "Delete"
     new: "New"
+    back: "Back"
+  new:
+    coin: "New currency"
+    mining_type: "New Mining type"
+  editing:
+    coin: "Editing Coin"
+    mining_type: "Editing Mining Type"
+  showing:
+    coin: "Displaying Coin"
+    mining_type: "Displaying Mining Type"
